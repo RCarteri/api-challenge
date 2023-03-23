@@ -22,11 +22,12 @@ public class Steps {
         BASE_URL = ResourceBundle.getBundle("config").getString("base_url");
     }
 
-    @When("I create an employee")
-    public void iCreateAnEmployee() {
+
+    @When("I create an employee with the name {string} and job {string}")
+    public void iCreateAnEmployeeWithTheNameAndJob(String name, String job) {
         JSONObject data = new JSONObject();
-        data.put("name", "Ricardo");
-        data.put("job", "QA");
+        data.put("name", name);
+        data.put("job", job);
         response = given()
                 .body(data.toJSONString())
                 .when()
