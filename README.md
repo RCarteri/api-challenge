@@ -19,7 +19,7 @@ This code can be executed by [runner][runners], by [feature][features] and with 
 (At some point there may be a need for intervention due to reCAPTCHA on login)
 
 It was also implemented in jenkins using the git repository.
-
+![jenkins](jenkins.png)
 
 [api]: http://dummy.restapiexample.com/
 [runners]: src/test/java/runners

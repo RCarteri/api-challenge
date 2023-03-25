@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e86655-3be3-42dc-8db3-2c1af56bf2a3" name="Changes" comment="Create report">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinitions/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateEmployee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateEmployee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/myreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/myreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/myreport.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/myreport.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +56,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuiteCreateEmployeeRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Create and delete an employee (2)">
     <configuration name="Scenario: Create and delete an employee (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/CreateEmployee.feature" />
       <option name="GLUE" value="stepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="api-challenge" />
+      <option name="NAME_FILTER" value="^Create and delete an employee$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create and delete an employee$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create and delete an employee" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Create and delete an employee (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateDeleteEmployee.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="api-challenge" />
       <option name="NAME_FILTER" value="^Create and delete an employee$" />
@@ -113,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Create and delete an employee (2)" />
         <item itemvalue="JUnit.TestSuiteCreateEmployeeRunner" />
         <item itemvalue="Cucumber Java.Scenario: Create and delete an employee (1)" />
         <item itemvalue="Cucumber Java.Scenario: Create and delete an employee" />
